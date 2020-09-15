@@ -4,11 +4,11 @@ title: Keeping in Sync – Part 2
 date: '2009-09-01'
 ---
 
-Following on from my previous post on [Keeping in Sync](../keeping-in-sync/index.md), I wanted to discuss how I keep the rest of my files synced between my three working computers. As I mentioned in the last post, Live Mesh is used to sync my working documents which includes my OneNote notebooks and currently active project documents, however due to the size restriction of Live Mesh as well as the restriction in my Internet Service Provider limit there are many documents that I cannot sync using Live Mesh. To solve this, I am using Microsoft [SyncToy](href="http://www.microsoft.com/downloads/details.aspx?familyid=c26efa36-98e0-4ee9-a7c5-98d0592d8c52&displaylang=en") as my way of keeping them synchronised.
+Following on from my previous post on [Keeping in Sync](https://cookycodes.com/keeping-in-sync/), I wanted to discuss how I keep the rest of my files synced between my three working computers. As I mentioned in the last post, Live Mesh is used to sync my working documents which includes my OneNote notebooks and currently active project documents, however due to the size restriction of Live Mesh as well as the restriction in my Internet Service Provider limit there are many documents that I cannot sync using Live Mesh. To solve this, I am using Microsoft [SyncToy](http://www.microsoft.com/downloads/details.aspx?familyid=c26efa36-98e0-4ee9-a7c5-98d0592d8c52&displaylang=en) as my way of keeping them synchronised.
 
 The files I like to keep synced between the computers include documents from non current projects or source code from old projects. I also have a collection of essential software such as system utilities, debugging tools, freeware desktop applications, development tools and SDKs. Finally I have a load of learning material including labs, video tutorials and eBooks.
 
-The solution to keeping these files synchronised between three different PCS is, firstly each computer (Home, Work and Client) has an external USB drive. I have this mapped in all locations as X:. Next, I have a USB passport drive that comes with me everywhere. This is mapped as the Y: drive on all machines. There is no particular reason for my letter selection except that I wanted to use drive letters that were not already taken as part of group policy in my work, or client domains. I also wanted to use the same letters in all three locations so I could script the sync function and use the same scripts in all locations. Next I need to setup [SyncToy](href="http://www.microsoft.com/downloads/details.aspx?familyid=c26efa36-98e0-4ee9-a7c5-98d0592d8c52&displaylang=en"). There are essentially three directories that I will be syncing:
+The solution to keeping these files synchronised between three different PCS is, firstly each computer (Home, Work and Client) has an external USB drive. I have this mapped in all locations as X:. Next, I have a USB passport drive that comes with me everywhere. This is mapped as the Y: drive on all machines. There is no particular reason for my letter selection except that I wanted to use drive letters that were not already taken as part of group policy in my work, or client domains. I also wanted to use the same letters in all three locations so I could script the sync function and use the same scripts in all locations. Next I need to setup [SyncToy](http://www.microsoft.com/downloads/details.aspx?familyid=c26efa36-98e0-4ee9-a7c5-98d0592d8c52&displaylang=en). There are essentially three directories that I will be syncing:
 
 1. Reference Material;
 2. Essentials; and
@@ -16,7 +16,7 @@ The solution to keeping these files synchronised between three different PCS is,
 
 The process of setting up is as follows:
 
-- Launch [SyncToy](href="http://www.microsoft.com/downloads/details.aspx?familyid=c26efa36-98e0-4ee9-a7c5-98d0592d8c52&displaylang=en")
+- Launch [SyncToy](http://www.microsoft.com/downloads/details.aspx?familyid=c26efa36-98e0-4ee9-a7c5-98d0592d8c52&displaylang=en)
 - Create a folder pair. The first folder pair I have created is between “My Documents\Davids Documents\Reference Material “ to “Y:\Davids Documents\Reference Material”
 
 ![My Documents](../../assets/clip_image001_thumb.png)
@@ -44,7 +44,7 @@ When all the folder pairs have been created, select to “Preview All”. This w
 
 ## Automating the Process
 
-Rather than manually having to run the synchronisation process, [SyncToy](href="http://www.microsoft.com/downloads/details.aspx?familyid=c26efa36-98e0-4ee9-a7c5-98d0592d8c52&displaylang=en") includes a command line utility which allows us to automate the process. The command line utility is called SyncToyCmd and its options are as follows:
+Rather than manually having to run the synchronisation process, [SyncToy](http://www.microsoft.com/downloads/details.aspx?familyid=c26efa36-98e0-4ee9-a7c5-98d0592d8c52&displaylang=en) includes a command line utility which allows us to automate the process. The command line utility is called SyncToyCmd and its options are as follows:
 
 <blockquote>   <p>Usage:&#160;&#160;&#160;&#160; SyncToyCmd [-args]      <br />All arguments are optional.       <br />&#160;&#160; -R&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Run all folder pairs that are marked as Active for Run All.       <br />&#160;&#160; -R <span class="kwrd">&lt;</span><span class="html">name</span><span class="kwrd">&gt;</span>&#160;&#160;&#160; Run the named folder pair (only one folder pair can be specified).       <br />&#160;&#160; -?&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Display this help.       <br />      <br />Examples:       <br />&#160;&#160; SyncToyCmd -R MyFolderPair       <br />&#160;&#160; SyncToyCmd -R</p> 
 </blockquote>  <p>&#160;</p>
