@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "cooky-codes-site",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A blog site powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "David Cook <cookycodes@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.24.54",
