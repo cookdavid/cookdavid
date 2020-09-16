@@ -2,6 +2,8 @@
 layout: post
 title: Keeping in Sync – Part 3
 date: '2009-10-06'
+tags:
+  - Personal Knowledge Management
 ---
 
 ![win7_notebook](../../assets/hp_mini_notebook_win7.png)

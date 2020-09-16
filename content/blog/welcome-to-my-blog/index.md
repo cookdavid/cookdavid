@@ -1,7 +1,8 @@
 ---
 title: Welcome to my blog
-date: "2009-07-08"
-description: "Welcome to my blog"
+date: '2009-07-08'
+description: 'Welcome to my blog'
+thumbnail: ../../images/blogging.jpg
 ---
 
 I’ve been debating the concept of starting my own blog for some time now but have been resisting due to a number of factors:

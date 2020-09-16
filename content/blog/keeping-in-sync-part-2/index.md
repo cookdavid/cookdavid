@@ -2,6 +2,8 @@
 layout: post
 title: Keeping in Sync – Part 2
 date: '2009-09-01'
+tags:
+  - Personal Knowledge Management
 ---
 
 Following on from my previous post on [Keeping in Sync](https://cookycodes.com/keeping-in-sync/), I wanted to discuss how I keep the rest of my files synced between my three working computers. As I mentioned in the last post, Live Mesh is used to sync my working documents which includes my OneNote notebooks and currently active project documents, however due to the size restriction of Live Mesh as well as the restriction in my Internet Service Provider limit there are many documents that I cannot sync using Live Mesh. To solve this, I am using Microsoft [SyncToy](http://www.microsoft.com/downloads/details.aspx?familyid=c26efa36-98e0-4ee9-a7c5-98d0592d8c52&displaylang=en) as my way of keeping them synchronised.
