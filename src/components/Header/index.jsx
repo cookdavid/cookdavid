@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import Navbar from '../Navbar'
-
+import logo from '../../../static/logo.svg'
 import { Link } from 'gatsby'
 //import Hamburger from './Hamburger'
 //import Sidebar from './Sidebar'
@@ -13,7 +13,16 @@ export const Header = () => {
 
   return (
     <Wrapper>
-      <Brand></Brand>
+      <Brand>
+        <Link
+          style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}
+          to={`/`}>
+          <img src={logo}></img>
+        </Link>
+      </Brand>
       <Links desktop="true">
         <Link to="/" activeClassName="current">
           Home
