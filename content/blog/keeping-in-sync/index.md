@@ -3,6 +3,7 @@ title: Keeping in Sync
 tags:
   - Personal Knowledge Management
 date: '2009-08-04'
+popular: false
 ---
 
 For the past 12 months I have been collocated at a clients site developing an application. The application went live a few months ago and since then I have been working on-site providing support and enhancements a couple of days a week, and the other couple of days a week I have been working back in our company office. Consequently, on any given day I could be working on any one of three computers: my home PC, the clients office, or the company office.
